@@ -1,2 +1,3 @@
 $user = Read-Host -Prompt "Enter Username"
 Get-ADUser -Identity $user | Disable(or Enable)-ADAccount
+## For somereason my Administator account got disabled so checking on that right now. 
